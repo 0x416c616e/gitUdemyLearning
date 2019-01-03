@@ -14,5 +14,6 @@ Some things I've gone over:
 - git init
 - git log
 - git show
-
-
+- git push
+- git pull
+- git ls-files
