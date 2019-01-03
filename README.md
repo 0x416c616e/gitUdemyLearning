@@ -27,6 +27,18 @@ Some things I've gone over:
 - git help specific-command (example: git help log)
 	- kind of like linux man pages, but for git stuff
 
+- list all global configurations in git
+	- git config --global --list
+- create an alias, not unlike bash:
+	- git config --global alias.hist "log --oneline --graph --decorate --all"
+- the equivalent to a history command, shows compact and useful info about the repo's history:
+	- git log --oneline --graph --decorate --all
+- only get history for a single file
+	- git hist -- filename.txt
+	- OR:
+	- git log --oneline --graph --decorate --all filename.txt
+	- not having the additional filename arg will just show the whole repo history, whereas
+	- including the filename will mean it'll only show the history for that particular file
 
 
 
