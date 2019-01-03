@@ -28,7 +28,7 @@ This isn't really a software repo, more of just a way for me to learn more about
 
 ### git rm filename
 
-- remove a file from the repo (key distiction: deleting file locally is not the same thing)
+- remove a file from the repo (key distinction: deleting file locally is not the same thing)
 
 ### git add filename
 
