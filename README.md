@@ -19,3 +19,7 @@ Some things I've gone over:
 - git ls-files
 - git commit -am "commit message"
 	- adding -a will automatically add modified files
+- Backing out of a bad change
+	- git reset HEAD example.txt
+	- git checkout -- example.txt
+	- The above two commands will revert example.txt back to the previous commit version as specified in HEAD
