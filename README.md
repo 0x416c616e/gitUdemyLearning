@@ -17,3 +17,5 @@ Some things I've gone over:
 - git push
 - git pull
 - git ls-files
+- git commit -am "commit message"
+	- adding -a will automatically add modified files
