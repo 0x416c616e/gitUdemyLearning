@@ -23,3 +23,10 @@ Some things I've gone over:
 	- git reset HEAD example.txt
 	- git checkout -- example.txt
 	- The above two commands will revert example.txt back to the previous commit version as specified in HEAD
+- git help 
+- git help specific-command (example: git help log)
+	- kind of like linux man pages, but for git stuff
+
+
+
+
