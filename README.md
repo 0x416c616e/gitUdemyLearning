@@ -2,21 +2,47 @@
 
 This isn't really a software repo, more of just a way for me to learn more about git and github, It corresponds to a course on Udemy, which you can find [here](https://www.udemy.com/github-ultimate/).
 
-Some things I've gone over:
-- git clone
-- git commit
-- git commit -m
-- git add .
-- git add -A
+---
+
+## Git commands I've learned thus far
+
+### **git clone example.com/something.git**
+
+- Clone a git repo, going from github to your computer. 
+
+### **git commit**
+
+- commit changes, but your editor will open and you should write a commit message
+
+### **git commit -m**
+
+- commit with a message specified at the command line, in quotes
+
+### **git add .**
+
+- add everything in the current directory
+
+
+### **git add -A**
+	- add everything
 - git rm filename
+	- remove a file from the repo (key distiction: deleting file locally is not the same thing)
 - git add filename
+	- add a file to be tracked by the repo
 - git status
+	- shows status of file modifications, new files, deleted files, etc -- stuff before a commit and push
 - git init
+	- creates an empty git repository
 - git log
+	- shows a log
 - git show
+	- shows info
 - git push
+	- pushes your changes to github (or whatever)
 - git pull
+	- gets new changes from the repo
 - git ls-files
+	- like ls but only shows the files tracked by git, not untracked stuff
 - git commit -am "commit message"
 	- adding -a will automatically add modified files
 - Backing out of a bad change
@@ -39,6 +65,10 @@ Some things I've gone over:
 	- git log --oneline --graph --decorate --all filename.txt
 	- not having the additional filename arg will just show the whole repo history, whereas
 	- including the filename will mean it'll only show the history for that particular file
+- git mv original-name.txt new-name.txt
+	- this basically renames a file
+
+
 
 
 
