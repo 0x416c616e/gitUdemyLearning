@@ -101,6 +101,23 @@ This isn't really a software repo, more of just a way for me to learn more about
 
 - this basically renames a file
 
+### .gitignore file
+
+- A hidden file (because of the dot) that will ignore certain files. 
+- One thing per line. You can do something like this:
+	- application.log
+- And it will ignore files calld application.log
+- Or you can use a wildcard, like so:
+	- \*.log
+- And it will ignore any .log files
+- One useful example: getting rid of .ds_store files on mac, or auth tokens
+- Put passwords and whatnot into a config file and make sure it's in .gitignore
+- Or else people can use tools like GitHarvester to find personal info you accidentally put in a public repo
+
+
+
+
+
 
 
 
