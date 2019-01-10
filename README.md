@@ -170,6 +170,14 @@ This isn't really a software repo, more of just a way for me to learn more about
 	- Merge conflicts
 	- Changes are saved in the merge commit (but only once all conflicts are solved)
 
+### Fixing commit message typos in a previously-pushed commit
+
+- I've made a typo in a commit message that I wanted to change, so even though these commands haven't been covered in the course just yet, I looked up a guide online and this is what I did:
+	1. git rebase -i HEAD~1
+	2. git commit --amend
+	3. git rebase --continue
+	4. git push origin master --force
+
 ### SPECIAL MARKERS
 
 - Kind of like pointers or environment variables
