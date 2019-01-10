@@ -143,7 +143,43 @@ This isn't really a software repo, more of just a way for me to learn more about
 - diff is short for difference
 
 
+### BRANCHING
 
+- Super important in git
+- A branch is just a timeline of commits.
+	- Branches names are labels
+	- Deletion only gets rid of labels, not commits
+- Default branch is master branch, but in the future I will want to use a feature branch
+- After you complete a feature, you merge it back into the maaster branch
+
+### MERGING
+
+- Types of merges:
+1. Fast-forward merge
+	- Simplest case
+	- It's like it was never branched to begin with
+	- It can be disabled
+	- Applies commits to the parent branch
+2. Automatic merge
+	- Non-conflicting merge detected (merge conflicts are bad)
+	- Preserves both timelines
+	- A new merge commit shows the merging of the two branches
+3. Manual merge
+	- When git can't do it automatically
+	- Merge conflicts must be fixed before you can proceed
+	- Merge conflicts
+	- Changes are saved in the merge commit (but only once all conflicts are solved)
+
+### SPECIAL MARKERS
+
+- Kind of like pointers or environment variables
+- HEAD
+	- Points to the last commit of the current branch
+	- You can move the HEAD (but that's more complicated)
+
+
+
+	
 
 
 
