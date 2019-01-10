@@ -114,6 +114,33 @@ This isn't really a software repo, more of just a way for me to learn more about
 - Put passwords and whatnot into a config file and make sure it's in .gitignore
 - Or else people can use tools like GitHarvester to find personal info you accidentally put in a public repo
 
+### diff
+
+- Usage: do git hist first to see a list of commits
+- Then do something like git diff c119f76 (or whatever the commit is) to see the difference between the current commit and that one
+- I've installed p4merge and changed my git global config stuff so that p4merge is the default diff and merge tool
+
+### HEAD
+
+- Special pointer to the current commit
+
+### difftool
+
+- Kind of like the diff command, but uses the configured diff tool (in my case, p4merge)
+- Example usage:
+- git difftool db7e30f HEAD
+
+### git diff (with no commits to compare)
+
+- Shows the difference between the working directory vs. HEAD
+- In other words, the differences you haven't committed yet vs. the last commit
+
+### git difftool (with no commits to compare)
+
+- Just like git diff (see above), but it will use your configured default diff tool (such as p4merge)
+- dff tools are very important
+- Anything that can be passed to the diff command can also be passed to the difftool command
+- diff is short for difference
 
 
 
