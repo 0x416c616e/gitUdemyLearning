@@ -113,6 +113,7 @@ This isn't really a software repo, more of just a way for me to learn more about
 - One useful example: getting rid of .ds_store files on mac, or auth tokens
 - Put passwords and whatnot into a config file and make sure it's in .gitignore
 - Or else people can use tools like GitHarvester to find personal info you accidentally put in a public repo
+- You can choose to ignore things based on wildcards, but then make a single exception. * - wildcard, ! = exception. Combinations of these can be useful instead of doing lots of things manually.
 
 ### diff
 
@@ -185,11 +186,31 @@ This isn't really a software repo, more of just a way for me to learn more about
 	- Points to the last commit of the current branch
 	- You can move the HEAD (but that's more complicated)
 
+## Branching and merging
 
+Need to put more info here about commands
 
-	
+## .gitkeep
 
+Unofficial but useful.
 
+## Pull requests
 
+This is more about GitHub than git, but oh well.
 
+## Code review
+
+Add more info here.
+
+## Issues
+
+Add more info here
+
+## Releases
+
+Not finished.
+
+## Command line vs. GUI/web
+
+## Committing, branching, and merging best practices
 
